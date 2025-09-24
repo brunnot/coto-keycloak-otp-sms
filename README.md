@@ -1,7 +1,6 @@
 # Keycloak SMS OTP Authenticator
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.java.net/projects/jdk/17/)
-[![Keycloak](https://img.shields.io/badge/Keycloak-26.3.4-blue.svg)](https://www.keycloak.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
 
@@ -24,7 +23,7 @@ A custom Keycloak authenticator that provides SMS-based One-Time Password (OTP) 
 ## 📋 Requirements
 
 - **Java**: 17 or higher
-- **Keycloak**: 26.3.4 (compatible with other recent versions)
+- **Keycloak**: >= 24.x.x (compatible with other recent versions)
 - **Maven**: 3.6+ (for building from source)
 - **SMS Provider**: Account with supported SMS service (Zenvia or custom implementation)
 
